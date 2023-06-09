@@ -1,0 +1,45 @@
+/*Selectores*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Clase*/
+.etiqueta {
+  border: 2px solid black;
+  width: 270px;
+  margin: 20px auto;
+  padding: 0 7px;
+}
+
+/*Selector*/
+h1 {
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px;
+}
+
+/*Selector*/
+p {
+  margin: 0;
+  /*Saco los margenes*/
+}
+
+/*Clase*/
+.divisor {
+  border-bottom: 1px solid #888989;
+  margin: 2px 0;
+}
+
+.negrita {
+  font-weight: 800;
+}
