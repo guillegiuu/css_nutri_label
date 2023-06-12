@@ -21,8 +21,8 @@ body {
   padding: 0 7px;
 }
 
-/*Selector*/
-h1 {
+/*Selectores*/
+header h1 {
   text-align: center;
   margin: -4px 0;
   letter-spacing: 0.15px;
@@ -32,6 +32,8 @@ h1 {
 p {
   margin: 0;
   /*Saco los margenes*/
+  display: flex;
+  justify-content: space-between;
 }
 
 /*Clase*/
@@ -42,4 +44,44 @@ p {
 
 .negrita {
   font-weight: 800;
+}
+
+.grande {
+  height: 10px;
+}
+
+.grande,
+.mediano {
+  background: black;
+  border: 0;
+}
+
+.mediano {
+  height: 5px;
+}
+
+.texto-pequeño {
+  font-size: 0.85rem;
+}
+
+.info-calorias {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.info-calorias h2 {
+  margin: 0;
+}
+
+.contenedor-izquierdo p {
+  margin: -5px -2px;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.info-calorias span {
+  font-size: 2.4em;
+  font-weight: 700;
+  margin: -7px -2px;
 }
