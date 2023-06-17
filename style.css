@@ -19,6 +19,7 @@ body {
   width: 270px;
   margin: 20px auto;
   padding: 0 7px;
+  background-color: #c4c4c4;
 }
 
 /*Selectores*/
@@ -44,6 +45,10 @@ p {
 
 .negrita {
   font-weight: 800;
+}
+
+.color {
+  color: red;
 }
 
 .grande {
@@ -100,4 +105,11 @@ p {
 
 .valor-diario p:not(.no-divisor) {
   border-bottom: 1px solid #888989;
+}
+
+.nota {
+  font-size: 0.7rem;
+  margin: 5px 0;
+  padding: 0 8px;
+  text-indent: -8px;
 }
